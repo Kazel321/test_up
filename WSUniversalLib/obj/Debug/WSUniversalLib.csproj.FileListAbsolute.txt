@@ -1,0 +1,6 @@
+C:\Users\Hollow\Desktop\1UCHEB\up_test\WSUniversalLib\bin\Debug\WSUniversalLib.dll
+C:\Users\Hollow\Desktop\1UCHEB\up_test\WSUniversalLib\bin\Debug\WSUniversalLib.pdb
+C:\Users\Hollow\Desktop\1UCHEB\up_test\WSUniversalLib\obj\Debug\WSUniversalLib.csproj.AssemblyReference.cache
+C:\Users\Hollow\Desktop\1UCHEB\up_test\WSUniversalLib\obj\Debug\WSUniversalLib.csproj.CoreCompileInputs.cache
+C:\Users\Hollow\Desktop\1UCHEB\up_test\WSUniversalLib\obj\Debug\WSUniversalLib.dll
+C:\Users\Hollow\Desktop\1UCHEB\up_test\WSUniversalLib\obj\Debug\WSUniversalLib.pdb
