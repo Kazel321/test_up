@@ -387,7 +387,10 @@ namespace Diplom
             wordPar.Range.InsertParagraphAfter();
 
             wordDoc.Saved = true;
-            wordDoc.SaveAs2(Application.StartupPath + "\\tickets\\" + "Сеанс-" + seance.SeanceId + " Билет-" + ticket.TicketId + ".pdf", Word.WdExportFormat.wdExportFormatPDF);
+            string seancetime = seance.SeanceTime.ToString().Substring(0, 5).Replace(":","_");
+            string savePath = Application.StartupPath + "\\tickets\\" + "Сеанс-" + seance.Film.FilmName + ", Время-" + seancetime + ", Билет-Ряд" + ticket.Place.PlaceRow + "Место" + ticket.Place.PlaceNumber + ".pdf";
+            //wordDoc.SaveAs2(Application.StartupPath + "\\tickets\\" + "Сеанс-" + seance.SeanceId + " Билет-" + ticket.TicketId + ".pdf", Word.WdExportFormat.wdExportFormatPDF);
+            wordDoc.SaveAs2(savePath, Word.WdExportFormat.wdExportFormatPDF);
 
             wordDoc.Close(true, null, null);
             wordApp.Quit();
