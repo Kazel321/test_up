@@ -1,0 +1,283 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="packages\EntityFramework.6.4.4\build\EntityFramework.props" Condition="Exists('packages\EntityFramework.6.4.4\build\EntityFramework.props')" />
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{72A143F2-89FE-4917-AA79-7C9C760CEAE1}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>Diplom</RootNamespace>
+    <AssemblyName>Diplom</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>icon.ico</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>packages\EntityFramework.6.4.4\lib\net45\EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>packages\EntityFramework.6.4.4\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+    </Reference>
+    <Reference Include="PresentationFramework" />
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Numerics" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Security" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="zxing, Version=0.16.8.0, Culture=neutral, PublicKeyToken=4e88037ac681fe60, processorArchitecture=MSIL">
+      <HintPath>packages\ZXing.Net.0.16.8\lib\net47\zxing.dll</HintPath>
+    </Reference>
+    <Reference Include="zxing.presentation, Version=0.16.8.0, Culture=neutral, PublicKeyToken=4e88037ac681fe60, processorArchitecture=MSIL">
+      <HintPath>packages\ZXing.Net.0.16.8\lib\net47\zxing.presentation.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Classes\Entities\Country.cs" />
+    <Compile Include="Classes\Entities\DB.cs" />
+    <Compile Include="Classes\Entities\Film.cs" />
+    <Compile Include="Classes\Entities\Genre.cs" />
+    <Compile Include="Classes\Entities\Hall.cs" />
+    <Compile Include="Classes\Entities\Login.cs" />
+    <Compile Include="Classes\Entities\MinAge.cs" />
+    <Compile Include="Classes\Entities\Place.cs" />
+    <Compile Include="Classes\Entities\PlaceType.cs" />
+    <Compile Include="Classes\Entities\Role.cs" />
+    <Compile Include="Classes\Entities\Row.cs" />
+    <Compile Include="Classes\Entities\Screenshot.cs" />
+    <Compile Include="Classes\Entities\Seance.cs" />
+    <Compile Include="Classes\Entities\sysdiagrams.cs" />
+    <Compile Include="Classes\Entities\Ticket.cs" />
+    <Compile Include="Classes\Entities\User.cs" />
+    <Compile Include="Classes\Helper.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="View\Data\FormLoginHistory.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\Data\FormLoginHistory.Designer.cs">
+      <DependentUpon>FormLoginHistory.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\Data\FormDataSeance.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\Data\FormDataSeance.Designer.cs">
+      <DependentUpon>FormDataSeance.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\Menu\FormDataMenu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\Menu\FormDataMenu.Designer.cs">
+      <DependentUpon>FormDataMenu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\FormAuth.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\FormAuth.Designer.cs">
+      <DependentUpon>FormAuth.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\Menu\FormAdminMenu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\Menu\FormAdminMenu.Designer.cs">
+      <DependentUpon>FormAdminMenu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\Seance\FormSeance.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\Seance\FormSeance.Designer.cs">
+      <DependentUpon>FormSeance.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\Seance\FormSeanceOrder.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\Seance\FormSeanceOrder.Designer.cs">
+      <DependentUpon>FormSeanceOrder.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\Seance\FormFilm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\Seance\FormFilm.Designer.cs">
+      <DependentUpon>FormFilm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\Seance\FormScreenshot.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\Seance\FormScreenshot.Designer.cs">
+      <DependentUpon>FormScreenshot.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\Data\FormDataUser.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\Data\FormDataUser.Designer.cs">
+      <DependentUpon>FormDataUser.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\Pattern\PatternData.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\Pattern\PatternData.Designer.cs">
+      <DependentUpon>PatternData.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\Pattern\Pattern.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\Pattern\Pattern.Designer.cs">
+      <DependentUpon>Pattern.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Classes\Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="View\Single\FormSingleUser.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\Single\FormSingleUser.Designer.cs">
+      <DependentUpon>FormSingleUser.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="View\Data\FormLoginHistory.resx">
+      <DependentUpon>FormLoginHistory.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\Data\FormDataSeance.resx">
+      <DependentUpon>FormDataSeance.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\Menu\FormDataMenu.resx">
+      <DependentUpon>FormDataMenu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\FormAuth.resx">
+      <DependentUpon>FormAuth.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\Menu\FormAdminMenu.resx">
+      <DependentUpon>FormAdminMenu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\Seance\FormSeance.resx">
+      <DependentUpon>FormSeance.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\Seance\FormSeanceOrder.resx">
+      <DependentUpon>FormSeanceOrder.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\Seance\FormFilm.resx">
+      <DependentUpon>FormFilm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\Seance\FormScreenshot.resx">
+      <DependentUpon>FormScreenshot.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\Data\FormDataUser.resx">
+      <DependentUpon>FormDataUser.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\Pattern\PatternData.resx">
+      <DependentUpon>PatternData.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\Pattern\Pattern.resx">
+      <DependentUpon>Pattern.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\Single\FormSingleUser.resx">
+      <DependentUpon>FormSingleUser.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\res\icon.ico" />
+    <Content Include="icon.ico" />
+    <None Include="res\back.jpg" />
+    <None Include="res\logo.png" />
+    <None Include="res\Back_Arrow.png" />
+    <None Include="res\icon.ico" />
+    <None Include="res\logo.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="Microsoft.Office.Core">
+      <Guid>{2DF8D04C-5BFA-101B-BDE5-00AA0044DE52}</Guid>
+      <VersionMajor>2</VersionMajor>
+      <VersionMinor>8</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="Microsoft.Office.Interop.Word">
+      <Guid>{00020905-0000-0000-C000-000000000046}</Guid>
+      <VersionMajor>8</VersionMajor>
+      <VersionMinor>7</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="VBIDE">
+      <Guid>{0002E157-0000-0000-C000-000000000046}</Guid>
+      <VersionMajor>5</VersionMajor>
+      <VersionMinor>3</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>Данный проект ссылается на пакеты NuGet, отсутствующие на этом компьютере. Используйте восстановление пакетов NuGet, чтобы скачать их.  Дополнительную информацию см. по адресу: http://go.microsoft.com/fwlink/?LinkID=322105. Отсутствует следующий файл: {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('packages\EntityFramework.6.4.4\build\EntityFramework.props')" Text="$([System.String]::Format('$(ErrorText)', 'packages\EntityFramework.6.4.4\build\EntityFramework.props'))" />
+    <Error Condition="!Exists('packages\EntityFramework.6.4.4\build\EntityFramework.targets')" Text="$([System.String]::Format('$(ErrorText)', 'packages\EntityFramework.6.4.4\build\EntityFramework.targets'))" />
+  </Target>
+  <Import Project="packages\EntityFramework.6.4.4\build\EntityFramework.targets" Condition="Exists('packages\EntityFramework.6.4.4\build\EntityFramework.targets')" />
+</Project>

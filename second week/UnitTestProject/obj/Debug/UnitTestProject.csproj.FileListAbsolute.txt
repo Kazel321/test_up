@@ -1,0 +1,62 @@
+D:\1study\!!!ДИПЛОМ\UnitTestProject\bin\Debug\ru\Microsoft.TestPlatform.AdapterUtilities.resources.dll
+D:\1study\!!!ДИПЛОМ\UnitTestProject\bin\Debug\ru\Microsoft.TestPlatform.CoreUtilities.resources.dll
+D:\1study\!!!ДИПЛОМ\UnitTestProject\bin\Debug\ru\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.resources.dll
+D:\1study\!!!ДИПЛОМ\UnitTestProject\bin\Debug\ru\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.resources.dll
+D:\1study\!!!ДИПЛОМ\UnitTestProject\bin\Debug\ru\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+D:\1study\!!!ДИПЛОМ\UnitTestProject\bin\Debug\ru\Microsoft.VisualStudio.TestPlatform.TestFramework.resources.dll
+D:\1study\!!!ДИПЛОМ\UnitTestProject\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+D:\1study\!!!ДИПЛОМ\UnitTestProject\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+D:\1study\!!!ДИПЛОМ\UnitTestProject\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+D:\1study\!!!ДИПЛОМ\UnitTestProject\bin\Debug\Microsoft.TestPlatform.AdapterUtilities.dll
+D:\1study\!!!ДИПЛОМ\UnitTestProject\bin\Debug\UnitTestProject.dll
+D:\1study\!!!ДИПЛОМ\UnitTestProject\bin\Debug\UnitTestProject.pdb
+D:\1study\!!!ДИПЛОМ\UnitTestProject\bin\Debug\Diplom.exe
+D:\1study\!!!ДИПЛОМ\UnitTestProject\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.dll
+D:\1study\!!!ДИПЛОМ\UnitTestProject\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll
+D:\1study\!!!ДИПЛОМ\UnitTestProject\bin\Debug\zxing.dll
+D:\1study\!!!ДИПЛОМ\UnitTestProject\bin\Debug\EntityFramework.dll
+D:\1study\!!!ДИПЛОМ\UnitTestProject\bin\Debug\Diplom.pdb
+D:\1study\!!!ДИПЛОМ\UnitTestProject\bin\Debug\Diplom.exe.config
+D:\1study\!!!ДИПЛОМ\UnitTestProject\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.xml
+D:\1study\!!!ДИПЛОМ\UnitTestProject\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml
+D:\1study\!!!ДИПЛОМ\UnitTestProject\bin\Debug\zxing.xml
+D:\1study\!!!ДИПЛОМ\UnitTestProject\bin\Debug\EntityFramework.xml
+D:\1study\!!!ДИПЛОМ\UnitTestProject\obj\Debug\UnitTestProject.csproj.AssemblyReference.cache
+D:\1study\!!!ДИПЛОМ\UnitTestProject\obj\Debug\UnitTestProject.csproj.CoreCompileInputs.cache
+D:\1study\!!!ДИПЛОМ\UnitTestProject\obj\Debug\UnitTestProject.csproj.CopyComplete
+D:\1study\!!!ДИПЛОМ\UnitTestProject\obj\Debug\UnitTestProject.dll
+D:\1study\!!!ДИПЛОМ\UnitTestProject\obj\Debug\UnitTestProject.pdb
+D:\1study\!!!ДИПЛОМ\UnitTestProject\bin\Debug\UnitTestProject.dll.config
+D:\1study\!!!ДИПЛОМ\UnitTestProject\bin\Debug\EntityFramework.SqlServer.dll
+D:\1study\!!!ДИПЛОМ\UnitTestProject\bin\Debug\EntityFramework.SqlServer.xml
+D:\1study\1UCHEB\up_test\second week\UnitTestProject\bin\Debug\ru\Microsoft.TestPlatform.AdapterUtilities.resources.dll
+D:\1study\1UCHEB\up_test\second week\UnitTestProject\bin\Debug\ru\Microsoft.TestPlatform.CoreUtilities.resources.dll
+D:\1study\1UCHEB\up_test\second week\UnitTestProject\bin\Debug\ru\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.resources.dll
+D:\1study\1UCHEB\up_test\second week\UnitTestProject\bin\Debug\ru\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.resources.dll
+D:\1study\1UCHEB\up_test\second week\UnitTestProject\bin\Debug\ru\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+D:\1study\1UCHEB\up_test\second week\UnitTestProject\bin\Debug\ru\Microsoft.VisualStudio.TestPlatform.TestFramework.resources.dll
+D:\1study\1UCHEB\up_test\second week\UnitTestProject\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+D:\1study\1UCHEB\up_test\second week\UnitTestProject\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+D:\1study\1UCHEB\up_test\second week\UnitTestProject\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+D:\1study\1UCHEB\up_test\second week\UnitTestProject\bin\Debug\Microsoft.TestPlatform.AdapterUtilities.dll
+D:\1study\1UCHEB\up_test\second week\UnitTestProject\bin\Debug\UnitTestProject.dll.config
+D:\1study\1UCHEB\up_test\second week\UnitTestProject\bin\Debug\UnitTestProject.dll
+D:\1study\1UCHEB\up_test\second week\UnitTestProject\bin\Debug\UnitTestProject.pdb
+D:\1study\1UCHEB\up_test\second week\UnitTestProject\bin\Debug\Diplom.exe
+D:\1study\1UCHEB\up_test\second week\UnitTestProject\bin\Debug\EntityFramework.dll
+D:\1study\1UCHEB\up_test\second week\UnitTestProject\bin\Debug\EntityFramework.SqlServer.dll
+D:\1study\1UCHEB\up_test\second week\UnitTestProject\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.dll
+D:\1study\1UCHEB\up_test\second week\UnitTestProject\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll
+D:\1study\1UCHEB\up_test\second week\UnitTestProject\bin\Debug\zxing.dll
+D:\1study\1UCHEB\up_test\second week\UnitTestProject\bin\Debug\Diplom.pdb
+D:\1study\1UCHEB\up_test\second week\UnitTestProject\bin\Debug\Diplom.exe.config
+D:\1study\1UCHEB\up_test\second week\UnitTestProject\bin\Debug\EntityFramework.xml
+D:\1study\1UCHEB\up_test\second week\UnitTestProject\bin\Debug\EntityFramework.SqlServer.xml
+D:\1study\1UCHEB\up_test\second week\UnitTestProject\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.xml
+D:\1study\1UCHEB\up_test\second week\UnitTestProject\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml
+D:\1study\1UCHEB\up_test\second week\UnitTestProject\bin\Debug\zxing.xml
+D:\1study\1UCHEB\up_test\second week\UnitTestProject\obj\Debug\UnitTestProject.csproj.AssemblyReference.cache
+D:\1study\1UCHEB\up_test\second week\UnitTestProject\obj\Debug\UnitTestProject.csproj.CoreCompileInputs.cache
+D:\1study\1UCHEB\up_test\second week\UnitTestProject\obj\Debug\UnitTestProject.csproj.CopyComplete
+D:\1study\1UCHEB\up_test\second week\UnitTestProject\obj\Debug\UnitTestProject.dll
+D:\1study\1UCHEB\up_test\second week\UnitTestProject\obj\Debug\UnitTestProject.pdb

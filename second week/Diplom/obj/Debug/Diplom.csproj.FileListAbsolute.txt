@@ -1,0 +1,66 @@
+D:\1study\!!!ДИПЛОМ\Diplom\bin\Debug\Diplom.exe.config
+D:\1study\!!!ДИПЛОМ\Diplom\bin\Debug\Diplom.exe
+D:\1study\!!!ДИПЛОМ\Diplom\bin\Debug\Diplom.pdb
+D:\1study\!!!ДИПЛОМ\Diplom\obj\Debug\Diplom.Pattern.resources
+D:\1study\!!!ДИПЛОМ\Diplom\obj\Debug\Diplom.Properties.Resources.resources
+D:\1study\!!!ДИПЛОМ\Diplom\obj\Debug\Diplom.csproj.GenerateResource.cache
+D:\1study\!!!ДИПЛОМ\Diplom\obj\Debug\Diplom.csproj.CoreCompileInputs.cache
+D:\1study\!!!ДИПЛОМ\Diplom\obj\Debug\Diplom.exe
+D:\1study\!!!ДИПЛОМ\Diplom\obj\Debug\Diplom.pdb
+D:\1study\!!!ДИПЛОМ\Diplom\obj\Debug\Diplom.View.FormAuth.resources
+D:\1study\!!!ДИПЛОМ\Diplom\obj\Debug\Diplom.FormSeance.resources
+D:\1study\!!!ДИПЛОМ\Diplom\bin\Debug\EntityFramework.dll
+D:\1study\!!!ДИПЛОМ\Diplom\bin\Debug\EntityFramework.SqlServer.dll
+D:\1study\!!!ДИПЛОМ\Diplom\bin\Debug\EntityFramework.xml
+D:\1study\!!!ДИПЛОМ\Diplom\bin\Debug\EntityFramework.SqlServer.xml
+D:\1study\!!!ДИПЛОМ\Diplom\obj\Debug\Diplom.csproj.CopyComplete
+D:\1study\!!!ДИПЛОМ\Diplom\obj\Debug\Diplom.FormOrderSeance.resources
+D:\1study\!!!ДИПЛОМ\Diplom\bin\Debug\zxing.dll
+D:\1study\!!!ДИПЛОМ\Diplom\bin\Debug\zxing.presentation.dll
+D:\1study\!!!ДИПЛОМ\Diplom\bin\Debug\zxing.xml
+D:\1study\!!!ДИПЛОМ\Diplom\bin\Debug\zxing.presentation.xml
+D:\1study\!!!ДИПЛОМ\Diplom\obj\Debug\Diplom.csproj.ResolveComReference.cache
+D:\1study\!!!ДИПЛОМ\Diplom\obj\Debug\Diplom.FormFilm.resources
+D:\1study\!!!ДИПЛОМ\Diplom\obj\Debug\Diplom.FormScreenshot.resources
+D:\1study\!!!ДИПЛОМ\Diplom\obj\Debug\Diplom.PatternData.resources
+D:\1study\!!!ДИПЛОМ\Diplom\obj\Debug\Diplom.FormDataMenu.resources
+D:\1study\!!!ДИПЛОМ\Diplom\obj\Debug\Diplom.FormAdminMenu.resources
+D:\1study\!!!ДИПЛОМ\Diplom\obj\Debug\Diplom.FormDataUser.resources
+D:\1study\!!!ДИПЛОМ\Diplom\obj\Debug\Diplom.FormLoginHistory.resources
+D:\1study\!!!ДИПЛОМ\Diplom\obj\Debug\Diplom.FormSingleUser.resources
+D:\1study\!!!ДИПЛОМ\Diplom\obj\Debug\Diplom.FormDataSeance.resources
+D:\1study\!!!ДИПЛОМ\Diplom\obj\Debug\Diplom.csproj.AssemblyReference.cache
+D:\1study\!!!ДИПЛОМ\Diplom\obj\Debug\Diplom.csproj.SuggestedBindingRedirects.cache
+D:\1study\1UCHEB\up_test\second week\Diplom\bin\Debug\Diplom.exe.config
+D:\1study\1UCHEB\up_test\second week\Diplom\bin\Debug\Diplom.exe
+D:\1study\1UCHEB\up_test\second week\Diplom\bin\Debug\Diplom.pdb
+D:\1study\1UCHEB\up_test\second week\Diplom\bin\Debug\EntityFramework.dll
+D:\1study\1UCHEB\up_test\second week\Diplom\bin\Debug\EntityFramework.SqlServer.dll
+D:\1study\1UCHEB\up_test\second week\Diplom\bin\Debug\zxing.dll
+D:\1study\1UCHEB\up_test\second week\Diplom\bin\Debug\zxing.presentation.dll
+D:\1study\1UCHEB\up_test\second week\Diplom\bin\Debug\EntityFramework.xml
+D:\1study\1UCHEB\up_test\second week\Diplom\bin\Debug\EntityFramework.SqlServer.xml
+D:\1study\1UCHEB\up_test\second week\Diplom\bin\Debug\zxing.xml
+D:\1study\1UCHEB\up_test\second week\Diplom\bin\Debug\zxing.presentation.xml
+D:\1study\1UCHEB\up_test\second week\Diplom\obj\Debug\Diplom.csproj.AssemblyReference.cache
+D:\1study\1UCHEB\up_test\second week\Diplom\obj\Debug\Diplom.csproj.SuggestedBindingRedirects.cache
+D:\1study\1UCHEB\up_test\second week\Diplom\obj\Debug\Diplom.csproj.ResolveComReference.cache
+D:\1study\1UCHEB\up_test\second week\Diplom\obj\Debug\Diplom.FormLoginHistory.resources
+D:\1study\1UCHEB\up_test\second week\Diplom\obj\Debug\Diplom.FormDataSeance.resources
+D:\1study\1UCHEB\up_test\second week\Diplom\obj\Debug\Diplom.FormDataMenu.resources
+D:\1study\1UCHEB\up_test\second week\Diplom\obj\Debug\Diplom.View.FormAuth.resources
+D:\1study\1UCHEB\up_test\second week\Diplom\obj\Debug\Diplom.FormAdminMenu.resources
+D:\1study\1UCHEB\up_test\second week\Diplom\obj\Debug\Diplom.FormSeance.resources
+D:\1study\1UCHEB\up_test\second week\Diplom\obj\Debug\Diplom.FormOrderSeance.resources
+D:\1study\1UCHEB\up_test\second week\Diplom\obj\Debug\Diplom.FormFilm.resources
+D:\1study\1UCHEB\up_test\second week\Diplom\obj\Debug\Diplom.FormScreenshot.resources
+D:\1study\1UCHEB\up_test\second week\Diplom\obj\Debug\Diplom.FormDataUser.resources
+D:\1study\1UCHEB\up_test\second week\Diplom\obj\Debug\Diplom.PatternData.resources
+D:\1study\1UCHEB\up_test\second week\Diplom\obj\Debug\Diplom.Pattern.resources
+D:\1study\1UCHEB\up_test\second week\Diplom\obj\Debug\Diplom.Properties.Resources.resources
+D:\1study\1UCHEB\up_test\second week\Diplom\obj\Debug\Diplom.FormSingleUser.resources
+D:\1study\1UCHEB\up_test\second week\Diplom\obj\Debug\Diplom.csproj.GenerateResource.cache
+D:\1study\1UCHEB\up_test\second week\Diplom\obj\Debug\Diplom.csproj.CoreCompileInputs.cache
+D:\1study\1UCHEB\up_test\second week\Diplom\obj\Debug\Diplom.csproj.CopyComplete
+D:\1study\1UCHEB\up_test\second week\Diplom\obj\Debug\Diplom.exe
+D:\1study\1UCHEB\up_test\second week\Diplom\obj\Debug\Diplom.pdb
