@@ -16,6 +16,7 @@ namespace UnitTestProject
     [TestClass]
     public class UnitTest1
     {
+        //Тестирование, что переход происходит на правильную форму
         [TestMethod]
         public void Auth_GoToFormSeance_IsTrue()
         {
@@ -30,6 +31,7 @@ namespace UnitTestProject
             Assert.IsTrue(res == "FormSeance");
         }
 
+        //Тестирование того, что сеанс передался корректно
         [TestMethod]
         public void OnSeance_GoToFormSeance_SeanceAreEqual()
         {
@@ -44,6 +46,7 @@ namespace UnitTestProject
             Assert.AreEqual(seanceId, res.SeanceId);
         }
 
+        //Тестирование того, что фильм передался корректно
         [TestMethod]
         public void OnFilm_GoToFormFilm_FilmAreEqual()
         {
@@ -58,6 +61,8 @@ namespace UnitTestProject
             Assert.AreEqual(filmId, res.FilmId);
         }
 
+        //Тестирование того, что данные о зале переданы и
+        //все места зала отображены
         [TestMethod]
         public void OnHallView_ShowAllPlacesInHall_IsTrue()
         {
@@ -90,6 +95,7 @@ namespace UnitTestProject
             Assert.AreEqual(places.Count, countPlaces);
         }
 
+        //Тестирование что данные о фильме переданы и все скриншоты отображены
         [TestMethod]
         public void FormScreenshot_ShowAllScreenshotInFilm_IsTrue()
         {
